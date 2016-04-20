@@ -3,11 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 指尖写生
+title: Life on Keyboard
 subtitle:
 description:
-author: 李三来
-language: zh-Hans
+author: Sam Li
+email: sanlai_lee@qq.com
+language: en
 timezone:
 avatar: /uploads/avatar.png
 

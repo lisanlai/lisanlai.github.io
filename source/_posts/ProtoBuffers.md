@@ -1,10 +1,11 @@
 ---
-title: 使用Proto Buffers做数据通信
+title: 使用ProtoBuffers做数据通信
 date: 2016-04-20 14:29:01
 categories: 
 - Development
 tags: 
-- Protobuffers Java
+- Protobuffers
+- Java
 ---
 # Proto Buffers 简介
 
