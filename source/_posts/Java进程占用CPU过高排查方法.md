@@ -1,6 +1,8 @@
 ---
 title: Java进程占用CPU过高排查方法
 date: 2016-07-27 10:06:05
+categories:
+- Development
 tags: 
 -JAVA
 -CPU过高
