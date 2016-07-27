@@ -29,7 +29,7 @@ Description: The Apache Tika™ toolkit detects and extracts metadata and text f
     	<version>1.13</version>
   	</dependency>
 
-
+<!-- more -->
 ## 使用案例：利用Tika获取文件的Content-Type
 		String[] files = new String[]{
                 "/Users/lisanlai/Desktop/file.docx",
