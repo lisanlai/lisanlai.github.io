@@ -4,10 +4,9 @@ date: 2016-07-27 10:06:05
 categories:
 - Development
 tags: 
--JAVA
--CPU过高
+- JAVA
+- CPU过高
 ---
-
 ## 1.利用TOP命令查看，发现Java进程持续占高CPU
 
  	PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND                                  
