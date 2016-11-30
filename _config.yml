@@ -4,7 +4,7 @@
 
 # Site
 title: Sam's Blog
-subtitle: 
+subtitle:
 description: Success is the sum of small efforts, repeated day in and day out.
 author: Sam Li
 language: en
@@ -35,7 +35,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
