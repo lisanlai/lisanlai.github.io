@@ -17,9 +17,10 @@ tags:
    - ReadDatasourceConfig.java
    - PrimaryDatasourceConfig.java
 
+
 2. 添加依赖：pom.xml
 
-   ``````xml
+   ```xml
    <dependency>
      <groupId>com.zaxxer</groupId>
      <artifactId>HikariCP</artifactId>
@@ -40,8 +41,8 @@ tags:
      <artifactId>spring-tx</artifactId>
      <version>4.3.4.RELEASE</version>
    </dependency>
-   ``````
-   <!— more —>
+   ```
+   <!-- more -->
 
 3. 添加数据源配置项：application.properties
 
@@ -58,9 +59,7 @@ tags:
    datasource.read.password=******
    datasource.read.jdbcUrl=jdbc:mysql://127.0.0.1:3306/dmsdb_read?autoReconnect=true&characterEncoding=UTF-8
    ```
-
-   ​
-
+   
 4. 添加MybatisProperities的配置项：application.properties
 
    ```properties
@@ -87,7 +86,7 @@ tags:
    @ConfigurationProperties(prefix = MybatisProperties.MYBATIS_PREFIX)
    public class MybatisProperties {
        public static final String MYBATIS_PREFIX = "mybatis";
-     
+
        private Resource configLocation;
        private Resource[] mapperLocations;
        private String typeAliasesPackage;
@@ -221,7 +220,7 @@ tags:
    @EnableConfigurationProperties(MybatisProperties.class)
    @MapperScan(basePackages = PrimaryDatasourceConfig.PACKAGE, sqlSessionFactoryRef = "primarySqlSessionFactory")
    public class PrimaryDatasourceConfig extends AbstractDatasourceConfig{
-   	
+
      	/** 指定java mapper 接口的包路径 */
        static final String PACKAGE = "zoomus.addons.repository.mybatis.primary";
        private static Logger logger = LoggerFactory.getLogger(PrimaryDatasourceConfig.class);
@@ -329,7 +328,7 @@ tags:
    	....
    	private final DemoPrimaryMapper demoPrimaryMapper;
    	private final DemoReadMapper demoReadMapper;
-   	
+
    	@Autowired
        public DemoServiceImpl(DemoPrimaryMapper demoPrimaryMapper,
                               demoReadMapper demoReadMapper) {
@@ -348,10 +347,10 @@ tags:
        public DemoObject getDemoObject(String id) {
        	return demoReadMapper.get(id);
        }
-       
+
        //如果需要使用注解事务，需要指定事务管理器，如：
        @Transactional("primaryTransactionManager")
-       
+
        ....
 
    }
