@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Sam's Blog
+title: 李三来的博客
 subtitle:
 description: Success is the sum of small efforts, repeated day in and day out.
-author: Sam Li
-language: en
+author: 李三来
+language: zh-CN
 timezone:
 avatar: /uploads/avatar.png
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://lisanlai.cn
+url: http://blog.lisanlai.cn
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
