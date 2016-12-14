@@ -58,7 +58,7 @@ menu_icons:
 # Schemes
 #scheme: Muse
 scheme: Mist
-# scheme: Pisces
+#scheme: Pisces
 
 
 # ---------------------------------------------------------------
@@ -144,7 +144,7 @@ social_icons:
 
 # Table Of Contents in the Sidebar
 toc:
-  enable: true
+  enable: false
 
   # Automatically add list number to toc.
   number: true
@@ -168,8 +168,8 @@ sidebar:
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggler.
   #display: post
-  #display: always
-  display: post
+  display: always
+  #display: post
   #display: remove
 
 
@@ -226,10 +226,10 @@ mathjax:
 
 
 # Swiftype Search API Key
-swiftype_key: PTn-yie9_raxkCcUrxyy
+# swiftype_key: PTn-yie9_raxkCcUrxyy
 
 # 百度统计 http://tongji.baidu.com/
-baidu_analytics: 3513d47ec07fae2109b8409b5f5f5a3f
+# baidu_analytics: 3513d47ec07fae2109b8409b5f5f5a3f
 
 # 多说评论
 ## 多说域名 http://lisanlai.duoshuo.com/
@@ -347,10 +347,10 @@ use_motion: true
 
 # Fancybox
 fancybox: true
-#fancybox_url: https://cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.css
+fancybox_url: https://cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.css
 
 # font_awesome
-#font_awesome: https://cdn.bootcss.com/font-awesome/4.4.0/css/font-awesome.min.css
+font_awesome: https://cdn.bootcss.com/font-awesome/4.4.0/css/font-awesome.min.css
 
 
 # Script Vendors.
