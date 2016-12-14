@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Sam's Blog
+title: 李三来的博客
 subtitle:
 description: Success is the sum of small efforts, repeated day in and day out.
 author: 李三来
-language: zh-CN
+language: zh-Hans
 timezone:
 avatar: /uploads/avatar.png
 
