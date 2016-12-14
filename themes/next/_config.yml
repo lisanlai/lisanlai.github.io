@@ -159,8 +159,8 @@ toc:
 
 sidebar:
   # Sidebar Position, available value: left | right
-  #position: left
-  position: right
+  position: left
+  #position: right
 
   # Sidebar Display, available value:
   #  - post    expand on posts automatically. Default.
@@ -169,7 +169,7 @@ sidebar:
   #  - remove  Totally remove sidebar including sidebar toggler.
   #display: post
   #display: always
-  display: hide
+  display: post
   #display: remove
 
 
@@ -290,7 +290,7 @@ facebook_sdk:
 # You can visit https://leancloud.cn get AppID and AppKey.
 # 访问统计 https://leancloud.cn
 leancloud_visitors:
-  enable: true
+  enable: false
   app_id: 2XxrUFatQXxuFAWcbKHP4iGp-gzGzoHsz
   app_key: LIXEKGX6v6cQabyKiQISH5oc
 
