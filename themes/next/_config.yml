@@ -334,7 +334,7 @@ changyan:
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
-#google_site_verification:
+google_site_verification: TrUnMASAEpWPLf28sUVl5VSxwgl4myBCO_6PiHidBaU
 
 # Google Analytics
 #google_analytics:
@@ -434,9 +434,9 @@ baidusitemap:
 baidu_push: true
 
 # 打赏
-#reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
-#  wechatpay: /images/wechat-reward.jpg
-#  alipay: /images/alipay-reward.jpg
+# reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
+#   wechatpay: /images/wechat-reward.jpg
+#   alipay: /images/alipay-reward.jpg
 
 # Google Calendar
 # Share your recent schedule to others via calendar page
@@ -468,7 +468,7 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: false
+  enable: true
 
 # External URL with BASE64 encrypt & decrypt
 # Usage: {% exturl text url "title" %}

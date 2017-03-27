@@ -10,13 +10,13 @@ tags:
 
 ## 1. JIRA REST API 可以做什么？
 
-<blockquote class="blockquote-center">
+{% note %}
 
 The Atlassian REST APIs provide a standard interface for interacting with JIRA and our other applications. 
 
 REST APIs provide access to resources (data entities) via URI paths. To use a REST API, your application will make an HTTP request and parse the response. Your methods will be the standard HTTP methods like GET, PUT, POST and DELETE. REST APIs operate over HTTP(s) making it easy to use with any programming language or framework. The input and output format for the JIRA REST APIs is [JSON](http://www.json.org/).
 
-</blockquote>
+{% endnote %}
 
 我们可以通过REST API去访问收保护的资源，例如增、删、改、查ISSUES 。。。。。
 

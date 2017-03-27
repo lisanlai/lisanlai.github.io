@@ -72,3 +72,19 @@ deploy:
   type: git
   repo: git@github.com:lisanlai/lisanlai.github.io.git
   branch: master
+
+#Local search
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+
+#搜索
+#https://www.algolia.com
+algolia:
+  applicationID: 'KWML0K50GI'
+  apiKey: 'd54291e92bb62d32f0fbc5f0b6732a22'
+  adminApiKey: '7f2a292abfc91e9cbfa6f3edd0441c53'
+  indexName: 'Index_blog_lisanlai_cn'
+  chunkSize: 5000
